@@ -1,0 +1,43 @@
+.error{
+    font-size: 20pt;
+	color: #ff0000;
+    text-align: center;
+    margin: auto;
+}
+
+#result{
+    font-size: 10pt;
+	color:black ;
+    text-align: center;
+    margin: auto;
+}
+
+
+.petrol-form{
+    background-color: chocolate;
+    text-align: center;
+    margin: auto;
+    z-index:-100;
+}
+
+.btn{
+    background-color:blue ;
+    text-align: center;
+    margin: auto;
+    color: cyan;
+}
+
+.full{
+    background-color: gold;
+    margin: auto;
+    z-index:-100;
+}
+
+.p{
+    color: black;
+}
+
+
+/* body{
+    background-color: indianred;
+} */

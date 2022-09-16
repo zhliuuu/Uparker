@@ -1,0 +1,25 @@
+{
+  "name": "546final",
+  "version": "1.0.0",
+  "description": "our fianl project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "Xuanlin Guan 20007027",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.4",
+    "express-session": "^1.17.2",
+    "jQuery": "^1.7.4",
+    "mongodb": "^4.5.0",
+    "nodemon": "^2.0.16",
+    "xss": "^1.0.11"
+  }
+}

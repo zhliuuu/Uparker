@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+ul{
+    display: inline-block;
+}
+
+li{
+    float: left;
+    margin: 15px 7px;
+    padding: 5px 6px;
+    letter-spacing: normal;
+}
+
+label{
+    letter-spacing: normal;
+}
+
+p{
+    font-weight: 800;
+    font-size: 18px;
+    color: #9c6e00;
+    margin: 15px 7px;
+    padding: 15px 6px;
+}
+
+#form {
+    position: relative;
+    width: 880px;
+    margin: 80px auto;
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    color: #4b816c;
+    font-size: 16px;
+    background-color: #F1F9F5;
+    border-radius: 5px;
+    z-index: 10
+}
+
+.lotName,
+.parkCharge,
+.location_Co,
+.disableSelection,
+.sizeSelection,
+.trafficCondition,
+.parklotCapa{
+    margin: 10px 15px;
+    border-bottom: 1px solid rgb(188, 186, 186);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.lotName label,
+.disableSelection label,
+.sizeSelection label,
+.parklotCapa label{
+    display: inline-block;
+    letter-spacing: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #9c6e00;
+    margin: 15px 7px;
+    padding: 15px 6px;
+}
+
+.parkChargeList li,
+.longLa li{
+    /* padding-left: 3em; */
+    letter-spacing: normal;
+}
+
+.sizeSelection select{
+    position: relative;
+    margin-top: 25px;
+}
+
+.error{
+    font-size: 18pt;
+	color: #ff0000;
+    text-align: center;
+    margin: auto;
+}
+
+#error{
+    font-size: 18pt;
+	color: #ff0000;
+    text-align: center;
+    margin: auto;
+}
+
+#result{
+    font-size: 18pt;
+	color:chartreuse ;
+    text-align: center;
+    margin: auto;
+}
+
+.parkLot-form{
+    /* background-color: chocolate; */
+    text-align: center;
+    margin: auto;
+}
+
+.btn-pl{
+    /* display: inline-block; */
+    float: right;
+    height: 30px;
+    width: 150px;
+    margin: 15px 7px;
+    padding: 2px 6px;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #008766;
+    cursor: pointer;
+}
+
+.btn-back{
+    /* display: inline-block; */
+    height: 30px;
+    width: 150px;
+    margin: 15px 7px;
+    padding: 2px 6px;
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #9c6e00;
+    cursor: pointer;
+}
+/* body{
+    background-color: indianred;
+} */
+.link{
+    color:black ;
+}
+
+.link{
+    color:black ;
+}
+
+.trafficCondition li>label,
+.longLa li>label,
+.parkChargeList li>label{
+    letter-spacing: normal;
+}

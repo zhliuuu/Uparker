@@ -1,0 +1,46 @@
+.error{
+    font-size: 18pt;
+	color: #ff0000;
+    text-align: center;
+    margin: auto;
+}
+
+.parklotInfo{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.comment-list{
+    background-color:white ;
+    text-align: center;
+    margin: auto;
+}
+
+.comment-form{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color:aquamarine ;
+}
+
+.full{
+    background-color:aquamarine 
+}
+
+#AA{
+    color: crimson;
+    font-size: 18pt;
+    margin: auto;
+    text-align: center;
+}
+
+.color{
+    background-color:midnightblue
+}
+
+#a{
+    color:black ;
+}

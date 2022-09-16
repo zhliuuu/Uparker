@@ -1,0 +1,238 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+hr {
+    width:40%;
+    margin-block-start:2px;
+    margin-block-end:2px;
+    background-color:white;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.favorite {
+    color:black;
+}
+
+.rating {
+    float:right;
+}
+
+.userMainBox {
+    background: #b2c6bd;
+    padding: 16px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0072ee;
+    border-color: #0072ee;
+}
+
+.parklotBox {
+    background: #f4fdfa;
+    padding: 16px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.parklotInfo {
+    background: #f4fdfa;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.userLogo {
+    text-align: center;
+}
+
+.userOuterBox {
+    background: #757575;
+    padding: 16px;
+    padding-bottom: 36em;
+}
+
+.backToHome {
+    text-align: center;
+}
+
+.collectionBox, .parkingLotBox {
+    padding: 1em;
+    border: solid thin;
+    margin: 1em;
+    background: #f5fdfa;
+    height: 180px;
+}
+
+.commentBox {
+    padding: 1em;
+    border: solid thin;
+    margin: 1em;
+    background: #f5fdfa;
+    height: 100px;
+}
+
+.collectionBoxImage, .parkingLotBoxImage {
+    float: left;
+    padding: 8px;
+}
+
+.collectionRightTextBox, .parkingLotRightTextBox {
+    padding: 8px;
+}
+
+.collectionBoxLine1, .parkingLotBoxLine1, .commentBoxLine1 {
+    font-family: verdana;
+    font-size: 2em;
+    color: #9d8f8f;
+}
+
+.collectionBoxLine2 {
+    font-size: 1em;
+    color: #a76500;
+}
+
+.collectionBoxLine3 {
+    font-size: 5px;
+    color: #a76500;
+}
+
+.collectionBoxCancelBtn, .parkingLotBoxViewBtn, .commentBoxCancelBtn {
+    border: 1em;
+    font-size: 1em;
+    color: #f9e8dc;
+    background: #9a5c00;
+    float: right;
+    bottom: 0px;
+}
+
+.parkingLotBoxViewBtn {
+    margin-top: 2em;
+}
+
+.mainInfo {
+    background: #b2c6bd;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.backToHomeBtn {
+    border: 1em;
+    font-size: 1em;
+    color: #fff1e6;
+    background: #5a756a;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.errorContainer {
+    text-align: center;
+    font-size: 4em;
+    color: red;
+}
+
+#emptycollectionBox, #emptyParkingLotBox, #emptyCommentBox {
+    text-align: center;
+    font-family: verdana;
+    font-size: 2em;
+    color: #9d8f8f;
+    display: none;
+}
+
+#myArea {
+    padding: 1em;
+    border: solid thin;
+    margin: 1em;
+    background: #178463;
+}
+
+#userProfile {
+    padding: 1em;
+    border: solid thin;
+    margin: 1em;
+    background: #527d6b;
+}
+
+#myCars {
+    padding: 1em;
+    border: solid thin;
+    margin: 1em;
+    background: #178463;
+}
+
+.myAreaItem, .myUserProfileItem, .myCarItem {
+    padding: 2px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.myAreaItemText, .myUserProfileText, .myCarItemText {
+    text-align: center;
+    color: #f5fdfa;
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#addNewAreaBox, #addNewCarBox {
+    display: grid;
+}
+
+#addNewAreaBtn, #addNewCarBtn {
+    margin: auto;
+}
+
+#modalInputError {
+    margin-left: 6px;
+    color: red;
+}
+
+#detailPageMyCollection {
+    text-align: center;
+    padding: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1em;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    color: #07706d;
+    background: #bbeae8;
+}
+
+#detailPageMyComments {
+    text-align: center;
+    padding: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1em;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    color: #07706d;
+    background: #bbeae8;
+}
+
+#detailPageAddNewParkingLot {
+    text-align: center;
+    padding: 1em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 1em;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    color: #07706d;
+    background: #bbeae8;
+}
